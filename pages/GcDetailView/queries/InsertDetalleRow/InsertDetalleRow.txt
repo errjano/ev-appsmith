@@ -1,0 +1,13 @@
+INSERT INTO public.gasto_comun_detalle
+(saldo_favor,saldo_contra,actual_mes,porcentaje_prorrateo,month,year,comentario,departamento_id,gc_cabecera_id)
+VALUES(
+	{{this.params.saldo_favor}},
+	{{this.params.saldo_contra}},
+	{{this.params.actual_mes}},
+	{{this.params.porcentaje_prorrateo}},
+	{{this.params.month}},
+	{{this.params.year}},
+	{{this.params.comentario}},
+	{{this.params.departamento_id}},
+	{{this.params.gc_cabecera_id}}
+)

@@ -1,0 +1,1 @@
+SELECT * FROM public.gasto_comun_cabecera WHERE comunidad_id = {{appsmith.store.enlace_profile_data.idcomunidad}} ORDER BY anno, mes

@@ -1,0 +1,1 @@
+SELECT * FROM public.gasto_comun_cabecera WHERE id = {{appsmith.URL.queryParams.GcHeaderId}} LIMIT 1;

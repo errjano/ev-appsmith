@@ -1,0 +1,8 @@
+SELECT
+  gcm.monto,
+  gcm.glosa,
+  gcm.descripcion,
+  gcm.departamento_id,
+  gcm.gc_cabecera_id
+FROM public.gasto_comun_movimiento as gcm
+WHERE gcm.gc_cabecera_id = {{appsmith.URL.queryParams.GcHeaderId}}

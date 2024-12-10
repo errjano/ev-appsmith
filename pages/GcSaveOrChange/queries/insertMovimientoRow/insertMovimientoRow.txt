@@ -1,0 +1,11 @@
+INSERT INTO public.gasto_comun_movimiento
+(monto, glosa, descripcion, user_id, departamento_id, gc_cabecera_id, tipo_movimiento)
+VALUES(
+	{{this.params.monto}},
+	{{this.params.glosa}},
+	{{this.params.descripcion}},
+	{{this.params.user_id}},
+	{{this.params.departamento_id}},
+	{{this.params.gc_cabecera_id}},
+	{{this.params.tipo_movimiento}}
+)

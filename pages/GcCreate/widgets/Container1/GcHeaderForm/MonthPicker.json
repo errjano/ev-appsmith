@@ -1,0 +1,80 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.c94480439adb48de6883bb496aa5ef7d.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "fw4x362vee",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Mes",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 12,
+  "originalTopRow": 5,
+  "parentColumnSpace": 17.62158203125,
+  "parentId": "a927g6yg28",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccione mes",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 17,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Enero\",\n    \"code\": 1\n  },\n  {\n    \"name\": \"Febrero\",\n    \"code\": 2\n  },\n  {\n    \"name\": \"Marzo\",\n    \"code\": 3\n  },\n  {\n    \"name\": \"Abril\",\n    \"code\": 4\n  },\n  {\n    \"name\": \"Mayo\",\n    \"code\": 5\n  },\n  {\n    \"name\": \"Junio\",\n    \"code\": 6\n  },\n  {\n    \"name\": \"Julio\",\n    \"code\": 7\n  },\n  {\n    \"name\": \"Agosto\",\n    \"code\": 8\n  },\n  {\n    \"name\": \"Septiembre\",\n    \"code\": 9\n  },\n  {\n    \"name\": \"Octubre\",\n    \"code\": 10\n  },\n  {\n    \"name\": \"Noviembre\",\n    \"code\": 11\n  },\n  {\n    \"name\": \"Diciembre\",\n    \"code\": 12\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 4,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "5it3zu8s1x",
+  "widgetName": "MonthPicker"
+}

@@ -1,0 +1,7 @@
+UPDATE public.gasto_comun_movimiento 
+SET
+	monto = {{TableOutbound.updatedRow.monto}},
+	glosa = {{TableOutbound.updatedRow.glosa}},
+	descripcion = {{TableOutbound.updatedRow.descripcion}},
+	departamento_id = {{TableOutbound.updatedRow.departamento_id}}
+WHERE id = {{TableOutbound.updatedRow.id}};

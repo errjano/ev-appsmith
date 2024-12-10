@@ -1,0 +1,3 @@
+SELECT pdep.* FROM public.departamento as pdep
+LEFT JOIN edificio as pedf ON (pedf.id = pdep.edificio_id)
+WHERE pedf.comunidad_id = {{appsmith.store.enlace_profile_data.idcomunidad}}

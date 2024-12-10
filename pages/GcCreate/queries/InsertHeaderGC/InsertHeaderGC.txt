@@ -1,0 +1,3 @@
+INSERT INTO public.gasto_comun_cabecera (estado, anno, mes, comunidad_id)
+VALUES('editable', {{YearPicker.selectedOptionValue}}, {{MonthPicker.selectedOptionValue}}, {{appsmith.store.enlace_profile_data.idcomunidad}}) RETURNING id;;
+

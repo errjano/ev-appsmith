@@ -1,0 +1,1 @@
+SELECT * FROM public.flat_grouped_gc WHERE gc_cabecera_id = {{appsmith.URL.queryParams.GcHeaderId}}

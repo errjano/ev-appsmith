@@ -1,0 +1,4 @@
+{
+  "email": {{FormEmail.text}},
+  "password": {{FormPassword.text}}
+}

@@ -1,0 +1,4 @@
+UPDATE public.gasto_comun_detalle 
+SET
+	monto = {{(TableGcDetails.updatedRow.cancelado == "checked") ? true : false}}
+WHERE id = {{TableGcDetails.updatedRow.id}};

@@ -1,0 +1,7 @@
+SELECT * FROM
+	public.gasto_comun_cabecera
+WHERE
+	comunidad_id = {{appsmith.store.enlace_profile_data.idcomunidad}} AND
+	anno = {{YearPicker.selectedOptionValue}} AND
+	mes = {{MonthPicker.selectedOptionValue}}
+LIMIT 1

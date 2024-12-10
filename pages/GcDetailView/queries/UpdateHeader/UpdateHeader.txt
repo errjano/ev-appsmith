@@ -1,0 +1,4 @@
+UPDATE public.gasto_comun_cabecera
+SET
+	estado = {{this.params.new_status}}
+WHERE id = {{this.params.gc_cabecera_id}}

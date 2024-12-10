@@ -1,0 +1,65 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#E3DEFF",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "Homepage",
+      "isDefault": true
+    },
+    {
+      "id": "Landing page",
+      "isDefault": false
+    },
+    {
+      "id": "GcLanding",
+      "isDefault": false
+    },
+    {
+      "id": "GcCreate",
+      "isDefault": false
+    },
+    {
+      "id": "GcSaveOrChange",
+      "isDefault": false
+    },
+    {
+      "id": "GcDetailView",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    }
+  }
+}

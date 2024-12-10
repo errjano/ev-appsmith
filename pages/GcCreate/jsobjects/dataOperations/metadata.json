@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "667edfd619c4e83b5de0da41_aa2c60b6-b52d-43ae-8fad-210b8adb8add",
+  "id": "GcCreate_dataOperations",
+  "unpublishedCollection": {
+    "name": "dataOperations",
+    "pageId": "GcCreate",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

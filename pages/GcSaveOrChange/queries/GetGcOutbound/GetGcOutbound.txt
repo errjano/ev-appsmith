@@ -1,0 +1,11 @@
+SELECT
+	pgcm.id,
+	pgcm.monto,
+	pgcm.glosa,
+	pgcm.descripcion,
+	pgcm.tipo_movimiento,
+	pgcm.departamento_id,
+	pgcm.user_id,
+	pgcm.created_at
+FROM gasto_comun_movimiento as pgcm
+WHERE gc_cabecera_id = {{appsmith.URL.queryParams.GcHeaderId}} AND pgcm.tipo_movimiento IN ('egreso', 'egreso_directo');
